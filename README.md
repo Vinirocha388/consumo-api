@@ -22,7 +22,7 @@ cd consumo-api
 npm install
 
 ```
-
+###  ❗❗ Caso não tenha instalado  
 ```bash
 npm install axios
 
