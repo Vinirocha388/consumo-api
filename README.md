@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👨‍💻 Consumo de API - Frontend
 
-## Getting Started
+Bem-vindo ao repositório do **Consumo-api**, uma aplicação web moderna para compartilhar e explorar uma API da empresa SpaceX 🚀. Este projeto foi construído com foco em **Consumo de uma API externa**.
 
-First, run the development server:
+---
+
+## 🚀 Instalação e Execução
+
+### ⚙️ Pré-requisitos
+
+- 📦 [Node.js](https://nodejs.org/) (versão LTS recomendada)  
+- 📥 npm ou yarn
+
+### 📲 Passo a passo
+
+```bash
+git clone https://github.com/Vinirocha388/consumo-api.git
+cd consumo-api
+```
+
+```bash
+npm install
+
+```
+
+```bash
+npm install axios
+
+```
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧱 Componentes Criados
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Os componentes estão organizados dentro da pasta `app/components` e foram projetados para serem reutilizáveis e independentes:
 
-## Learn More
+| Componente               | Descrição                                                                  |
+|--------------------------|----------------------------------------------------------------------------|
+| 🧩 **DataSpaceX**  | cards e estruturação de cada objeto                                  |
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Decisões de Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ✨ **Componentização**: Toda a interface foi separada em pequenos blocos reutilizáveis.  
+- 🧠 **Nomeação clara**: Os nomes seguem um padrão para facilitar a leitura e manutenção.  
+- 🗂️ **Organização por responsabilidade**: Componentes divididos por função e área da interface.  
+- 🎯 **UX responsivo**: Design adaptável a qualquer dispositivo (mobile-first).  
+ 
+
+---
+
+
+
+## 📝 Considerações Finais
+
+💡 Este projeto é um ótimo ponto de partida para quem deseja construir uma aplicação React robusta, modular e de fácil manutenção.
+
+🙌 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
