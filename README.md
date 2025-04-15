@@ -27,7 +27,7 @@ npm install
 npm install axios
 
 ```
-
+### 🧨 Para rodar 
 ```bash
 npm run dev
 
